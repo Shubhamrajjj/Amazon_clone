@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/static/css/a.css">
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .product-row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 300px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 150px;
+            background-color: #ddd;
+            background-size: cover;
+        }
+
+        .product-name {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            color: #b12704;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product-review {
+            color: #007600;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo ">
+                <a href="/index.html">
+                    <div class="logo border">
+                    </div>
+                </a>
+
+                <div class="nav-address border padding">
+                    <p class="add-1">Deliver To</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="add-2"> Shubham</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="nav-select">
+                    <option> All</option>
+                    <option value="#">Amazon prime</option>
+                    <option value="#">Amazon Fresh</option>
+                    <option value="">Amazon Fashion</option>
+                    <option value="">Amazon Pharmacy</option>
+                    <option value="">Appliances</option>
+                    <option value="">Apps & Games</option>
+
+                </select>
+                <input type="text" placeholder="Search Amazon.in" class="nav-searchbox">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-lang border padding">
+                <div class="lang-logo"></div>
+                <select class="lang-select">
+                    <option>EN</option>
+                </select>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div class="nav-signin border padding">
+                <p><span>Hello, Shubham</span> </p>
+                <p class="nav-second">Accounts & Lists</p>
+
+            </div>
+
+            <div class="nav-signin border padding">
+                <p><span>Returns</span> </p>
+                <p class="nav-second">& orders</p>
+            </div>
+            <div class="nav-cart border padding">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+
+            </div>
+        </div>
+        <div class="panel">
+            <i class="fa-solid fa-bars border padding"></i>
+            <p class=" all border padding">All</p>
+            <div class="panel-ops ">
+                <p class="border padding">Fresh</p>
+                <p class="border padding">Amazon miniTV</p>
+                <p class="border padding">Sell</p>
+                <p class="border padding">Gift Cards</p>
+                <p class="border padding">Amazon Business</p>
+            </div>
+            <div class="panel-deals border padding">
+                Today's Top Deals
+            </div>
+        </div>
+    </header>
+    <div class="product-row">
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('/images/shop3\ \(1\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images//shop3\ \(2\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(3\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(4\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(5\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(6\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(7\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(8\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(9\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(10\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(11\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(12\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(13\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(14\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(15\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(16\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(17\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(18\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(19\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(20\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(21\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image " style="background-image: url('/images/shop3\ \(22\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(23\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(24\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(25\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(26\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('/images/shop3\ \(27\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(28\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(29\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+        <div class="product-card">
+            <div class="product-image"  style="background-image: url('/images/shop3\ \(30\).jpg');"></div>
+            <div class="product-name">Product Name</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-review">★★★★☆ 4.0 out of 5 stars 1000 reviews</div>
+        </div>
+    </div>
+    <div class="signin">
+        <div class="signin-content">
+            <p class="upper-footer-text">See Personlised recommendations</p>
+            <div>
+                <a href="/index2.html"><button class="signin-button">Sign in</button></a>
+            </div>
+            <p class="upper-footer-text2">New Customer?<a href="#">Start Here</a></p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-panel1">
+            <a class="footer-panel1-text" href="shopping3.html"> Back To Top </a>
+        </div>
+        <div class="footer-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">About Us </a>
+                <a href="">Careers</a>
+                <a href="">Press Releases</a>
+                <a href="">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect With Us</p>
+                <a href="">Facebook </a>
+                <a href="">Instagram</a>
+                <a href="">Twitter</a>
+            </ul>
+            <ul>
+
+                <p>Make Money with Us</p>
+                <a href="">Sell on Amazon</a>
+                <a href="">Sell under Amazon Accelerator</a>
+                <a href="">Protect and Build Your Brand</a>
+                <a href="">Amazon Global Selling</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Fulfilment by Amazon</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="">COVID-19 and Amazon</a>
+                <a href="">Your Account</a>
+                <a href="">Returns Centre</a>
+                <a href="">100% Purchase Protection</a>
+                <a href="">Amazon App Download</a>
+                <a href="">Help</a>
+            </ul>
+
+        </div>
+        <div class="foot-panel3">
+            <div class="bottom-logo"></div>
+        </div>
+        <div class="capitals">
+            <a href="">Australia</a>
+            <a href="">Brazil</a>
+            <a href="">Canada</a>
+            <a href="">China</a>
+            <a href="">France</a>
+            <a href="">Germany</a>
+            <a href="">Italy</a>
+            <a href="">Japan</a>
+            <a href="">Mexico</a>
+            <a href="">Netherlands</a>
+            <a href="">Poland</a>
+            <a href="">Singapore</a>
+            <a href="">Spain</a>
+            <a href="">Turkey</a>
+            <a href="">United Arab Emirates</a>
+            <a href="">United Kingdom</a>
+            <a>United States</a>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="">Condition of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <!-- Repeat the product card for each product -->
+</body>
+
+</html>
